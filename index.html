@@ -1,1 +1,151 @@
+<!doctype html>
+<meta charset="utf-8">
+<html>
+     <head>
+        <title>China comes to MIT</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+
+    </head>
+    <body>
+      <div id="background">
+        <div class="page" >
+          <!-- Update the section below to add your own personal information -->
+          <h1 class="center" id="bigtitle">CHINA COMES TO MIT</h1>
+          <h4 id="subtitle">MIT's First Chinese Students|  早期中国留学生 ：1877-1931</h3>
+
+          <div id="viz-container">
+              <div class="single_viz" id="map">
+                  <div class="text">
+
+                    Path
+                    <p> CELEBRATING THE 140TH ANNIVERSARY OF CHINESE STUDENTS AT MIT
+                    <p>In 1877, the first student from China matriculated at MIT. By 1910, China was sending more students to MIT than any other foreign country. From these beginnings, the Institute became one of the most popular destinations for Chinese overseas students, especially those seeking to contribute to their country’s modernization through engineering, science and commerce.  </p>
+                  </div>
+
+                  <div class="chart" id="svg_map"></div>
+
+              </div>
+
+        <div class="single_viz" id="treemap">
+                  <div class="text">
+                      Provincial origins of students
+                      <p>The students had diverse origins, but the large majority came from southern China, a region with a long history of overseas trade and migration. </p>
+        
+                  </div>
+                  <div class="chart" id="svg_treemapchina"></div>
+              </div>
+            <hr/>
+
+         <div class="single_viz" id="pie">
+                  <div class="text">
+                      Major Course BS/MS
+                      <p>The students had diverse origins, but the large majority came from southern China, a region with a long history of overseas trade and migration. </p>
+        
+                  </div>
+                  <div class="chart" id="svg_pie"></div>
+              </div>
+
+               <hr/>
+            <div class="single_viz" id="line">
+                  <div class="text">
+                      MIT's First Chinese Students 1877-1931
+                      <p>Following the Directory, the story we tell focuses on the years 1877 to 1931, while the term "Chinese" encompasses both students born in China as well as students of ethnic Chinese heritage. </p>
+        
+                  </div>
+                  <div class="chart" id="svg_line"></div>
+              </div>
+
+               <hr/>
+
+              <div class="single_viz" id="bubble">
+                  <div class="text">
+                      In My Leisure Time
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make
+                        a type specimen book. </p>
+                      <button class="button" type="button" onclick="shuffle_colors();">Shuffle the colors</button>
+
+
+                      <br>
+                      <div class="dropdown">
+                      <button class="dropbtn"><span id="cat">all</span> <span style='float: right;'>▼</span></button>
+                      <div class="dropdown-content">
+                          <a onclick="filter('sports');">sports</a>
+                          <a onclick="filter('arts');">arts</a>
+                          <a onclick="filter('food');">food</a>
+                          <a onclick="filter('all');">all</a>
+                        </div>
+                      </div>
+                  </div>
+                  <svg class="chart" id="svg_bubble"></svg>
+              </div>
+
+              <hr/>
+
+              <div class="single_viz" id="favorite">
+                  <div class="text">
+                    People..
+                  </div>
+                  <div class="allFavorites">
+                    <div class="favorites" id="favorites">
+                      
+                      
+                        <img src="./images/im6.png" width="150" height= "150"/>
+                      </div>
+
+              
+
+                    <div class="favorites">
+                        <img src="./images/im1.jpg" width="150" height= "150"/>
+                    </div>
+
+                    <div class="favorites">
+                        <img src="./images/im3.jpg" width="150" height= "150"/>
+                    </div>
+
+                    <div class="favorites">
+                       <img src="./images/im4.png" width="150" height= "150"/>
+                    </div>
+
+                    <div class="favorites">
+                        <img src="./images/im2.jpg" width="220" height= "150"/>
+                    </div>
+
+                    <div class="favorites">
+                        <img src="./images/im5.png" width="220" height= "150"/>
+                    </div>                
+                </div>
+
+                <hr/>
+
+              <!-- Add other sections if you like -->
+              <div class="single_viz" >
+                  <div class="text">Put anything you'd like to share!</div>
+                  <svg class="chart" id="chart" width="420" height="120"></svg>
+              </div>
+          </div>
+        </div>
+      </div>
+
+        <script src="https://d3plus.org/js/d3.js"></script>
+        <script src="https://d3plus.org/js/d3plus.js"></script>
+        <script src="https://d3plus.org/js/topojson.js"></script>
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+        <script src="https://d3js.org/queue.v1.min.js"></script>
+        <script src="https://d3js.org/topojson.v1.min.js"></script>
+        <script src="./datamaps.world.min.js"></script>
+        <script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+        <script src="./map.js"></script>
+        <script src="./bubble.js"></script>
+         <script src="./Treemap-china.js"></script>
+        <script src="./pie.js"></script>
+          <script src="./line.js"></script>
+
+        <script>
+
+        </script>
+    </body>
+</html>
 
